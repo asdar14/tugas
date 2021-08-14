@@ -1,0 +1,25 @@
+// Susun program untuk menghitung dan mencetak Lama Perjalan yang dihabiskan 
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{  
+    int detik, detik2, total, j, m, d, i;
+    detik = 8*3600+52*60+45;
+    detik2 = 12*3600+15*60+10;
+    total = detik2-detik;
+    cout << "\n Berangkat pukul 08 lewat 52 menit 45 detik " ;
+    cout << "\n Tiba pukul 12 lewat 15 menit 10 detik " ;
+    cout << "\n Lama Perjalan yang dihabiskan " ;
+    j = total/3600;
+    i = total%3600;
+    m = i/60;
+    d = i%60;
+    cout << "\n " << j << " Jam   ";
+    cout << m << " Menit  ";
+    cout <<  d  << " Detik " ;
+     
+ }
