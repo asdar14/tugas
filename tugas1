@@ -1,0 +1,22 @@
+// Susun program untuk menghitung dan mencetak pukul berapa 
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{  
+    int detik, j, m, d, i;
+    detik = 8*3600+52*60+45;
+    detik = detik+5000;
+    cout << "\n Lama Perjalan : 5000 detik " ;
+    j = detik/3600;
+    i = detik%3600;
+    m = i/60;
+    d = i%60;
+    cout << "\n " << j << " Jam   ";
+    cout << m << " Menit  ";
+    cout <<  d  << " Detik " ;
+     
+ }
